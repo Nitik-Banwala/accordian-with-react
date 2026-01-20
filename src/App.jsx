@@ -1,5 +1,5 @@
 import './index.css'
-import Accordion from "/Users/nitik/accordian/src/accordian.jsx";
+import Accordion from './accordian'
 function App() {
   return (
     <>
