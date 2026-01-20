@@ -1,5 +1,6 @@
 import { useState } from "react";
-import ArrowDown from "./assets/arrow";
+import { ArrowDown } from "./icons";
+
 
 export default function Accordion() {
     const data = [
@@ -46,7 +47,7 @@ export default function Accordion() {
                             className={`transition-transform duration-300 ${openIndex === index ? "rotate-180" : ""
                                 }`}
                         >
-                            <ArrowDown/>
+                            <ArrowDown />
                         </span>
                     </button>
 

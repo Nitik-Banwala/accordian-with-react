@@ -1,6 +1,6 @@
 import React from "react";
 
-const ArrowDown = ({
+export const ArrowDown = ({
     width = 12,
     height = 8,
     color = "#808080",
@@ -24,6 +24,3 @@ const ArrowDown = ({
         </svg>
     );
 };
-
-export default ArrowDown;
-
