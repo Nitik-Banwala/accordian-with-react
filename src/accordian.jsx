@@ -1,5 +1,5 @@
 import { useState } from "react";
-import ArrowDown from "./assets/arrow";
+import ArrowDown from "./Arrow";
 
 export default function Accordion() {
     const data = [
